@@ -49,7 +49,7 @@ class Main extends React.Component {
            I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
            through social media, <a href="https://objector.netlify.com"> my personal blog</a>, and in person at conferences and meetups.</p>
 
-           <button onclick="href =https://drive.google.com/uc?authuser=0&id=1nZyjZ2EUNigKNimfCzWTZrs9WnOUkk6t&export=download">Resume</button>
+           <a href="https://drive.google.com/uc?authuser=0&id=1nZyjZ2EUNigKNimfCzWTZrs9WnOUkk6t&export=download"><button>RESUME</button></a>
           {close}
         </article>
 
