@@ -210,13 +210,13 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="https://codebushi.com" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a href="https://codebushi.com" className="icon fa-behance">
+                <span className="label">Behance</span>
               </a>
             </li>
             <li>
