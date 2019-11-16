@@ -3,6 +3,12 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
+import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
+
+
 
 class Main extends React.Component {
   render() {
@@ -33,25 +39,15 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          I am a curious, self driven Web Developer and UI / UX designer based in NYC who is passionate in Digital Art, Emerging technologies, Human - Computer Interaction, accessability in UI / UX design, 
+          and tech education for underrepresented and marginalized groups.I believe in advocating
+          for good design that is easy to use, provides a enjoyable experience and most importantly has good social impact
+          for society at large.
+           </p>
+
+           <p> In addition I believe continuous learning about new methodologies as well as understanding one another and fair collaboration is crucial when it comes to the projects and products we build.Thoughtful design and equality in tech and design are extremely important in today 's ever connected world. 
+           I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
+           through social media, my personal blog, and in person at conferences and meetups.</p>
           {close}
         </article>
 
@@ -62,48 +58,115 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h3>MELAN8</h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+           A UI concept I designed for a blog devoted to highlighting stories from creatives. 
+           It utilizes a clean modern look with serif fonts, a light color palette thats easy for the user to read, as well as modern site and social icons.  
+           Made using Adobe Xd.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+
+          <a href="https://www.behance.net/gallery/88163899/MELAN8-Creative-Blog"><span className="icon fa-behance"> View source on Behance</span></a>
+          
           {close}
+          
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+          <h3>Checkout Form</h3>
+          <p>
+          Credit card checkout form for a site. This was built using HTML5, CSS3, and Bootstrap with input validation in JavaScript
+          </p>
+
+          <a href="https://github.com/nycbeardo/UI002CreditCardCheckOut"><span className="icon fa-github"> View source on GitHub</span></a>
+          
+          {close}
+
+
+          <span className="image main">
+          <img src={pic05} alt="" />
+        </span>
+        <h3>Registration Slider</h3>
+        <p>
+        This responsive sign-in form allows you to switch between sections for returning and new users.
+        </p>
+        <a href="https://github.com/nycbeardo/Double-Sign-In-Form"><span className="icon fa-github"> View source on GitHub</span></a>
+        {close}
+
+        <span className="image main">
+      <img src={pic07} alt="" />
+    </span>
+    <h3>Vintage Hobby Site</h3>
+    <p>
+     UI card concept designed for a clothing site to provide a preview of a product being offered. Made according to Google's Material Design guidelines with HTML5 and CSS.
+    </p>
+    <a href="https://github.com/nycbeardo/material-design-card"><span className="icon fa-github"> View source on GitHub</span></a>
+    {close}
+
+        <span className="image main">
+        <img src={pic06} alt="" />
+      </span>
+      <h3>Product Card</h3>
+      <p>
+       UI card concept designed for a clothing site to provide a preview of a product being offered. Made according to Google's Material Design guidelines with HTML5 and CSS.
+      </p>
+      <a href="https://github.com/nycbeardo/material-design-card"><span className="icon fa-github"> View source on GitHub</span></a>
+      {close}
+
+
+
+
         </article>
 
+
+
+
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+          <img src={pic04} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          
+           
+          <div className="row">
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>HTML5 <i className="devicon-html5-plain colored" /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>CSS3 <i className="devicon-css3-plain colored"  /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+            <h4>Javascript <i class="devicon-javascript-plain colored" ></i></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>Bootstrap <i className="devicon-bootstrap-plain colored"  /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+            <h4>React<i class="devicon-react-plain colored"></i></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>Python <i className="devicon-python-plain colored"  /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>Adobe Xd <i className="devicon-cplusplus-plain colored"  /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>Git <i className="devicon-git-plain colored"  /></h4>
+            </div>
+            <div className="col-md-4 col-sm-6 skill">
+              <h4>Figma <i className="devicon-java-plain colored"  /></h4>
+            </div>
+          </div>
+        
           {close}
         </article>
 
