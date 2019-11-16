@@ -48,6 +48,8 @@ class Main extends React.Component {
            <p> In addition I believe continuous learning about new methodologies as well as understanding one another and fair collaboration is crucial when it comes to the projects and products we build.Thoughtful design and equality in tech and design are extremely important in today 's ever connected world. 
            I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
            through social media, my personal blog, and in person at conferences and meetups.</p>
+
+           <p>RESUME</p>
           {close}
         </article>
 
