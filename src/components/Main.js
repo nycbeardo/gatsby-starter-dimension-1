@@ -49,7 +49,7 @@ class Main extends React.Component {
            I strive to promote and embrace these ideas when I am connecting with others from all walks of life, 
            through social media, my personal blog, and in person at conferences and meetups.</p>
 
-           <p>RESUME</p>
+           <button onclick="window.location.href = 'https://w3docs.com';">Resume</button>
           {close}
         </article>
 
